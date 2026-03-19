@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#071418">
+
+    <ImageView
+        android:id="@+id/splash_icon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/splash_title"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/splash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="CONNECT FOUR"
+        android:textColor="#c9a227"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.15"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Drop it · Connect it · Win it"
+        android:textColor="#4a7a8a"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="Loading…"
+        android:textColor="#1a4a5a"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
