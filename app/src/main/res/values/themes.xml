@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ConnectFour" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">#071418</item>
+        <item name="android:statusBarColor">#071418</item>
+        <item name="android:navigationBarColor">#071418</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="Theme.ConnectFour.Splash" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">#071418</item>
+        <item name="android:statusBarColor">#071418</item>
+        <item name="android:navigationBarColor">#071418</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+  
